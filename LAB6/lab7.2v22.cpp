@@ -11,10 +11,10 @@ int find(double a, double b, double c)
     return S;
 }
 
-int square(int n, int d)
+int square(int n, ...)
 {
     double x = 3.14 / n;
-    S = (n * pow(d, 2) / 4 * 1/tan(x));
+    S = (n * pow(n++, 2) / 4 * 1/tan(x));
     cout << "square " << n << " angle = " << S << endl;
     return S;
 }
