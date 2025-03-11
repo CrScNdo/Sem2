@@ -31,6 +31,7 @@ int main()
             cout << line[i] << endl;
         }
     }
+    delete[] line;
     return 0;
 }
 
