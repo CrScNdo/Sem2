@@ -6,7 +6,7 @@ int main()
     int n, k, s;
     cout << "how many lines are there in total?" << endl;
     cin >> s;
-    string line[s];
+    string* line = new string[s];
     cout << "enter a line and press enter for the next one" << endl;
     for (int i = 0; i < s; i++)
     {
