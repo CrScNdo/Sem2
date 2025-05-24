@@ -76,7 +76,7 @@ void distrub(const string& input, const string* tapes, int k)
 
 void multi(const string& inputFile, int k = 3)
 {
-    if (k < 2) return; // ошибка
+    if (k < 2) return;
 
     string* tapes = new string[k];
     for (int i = 0; i < k; ++i)
