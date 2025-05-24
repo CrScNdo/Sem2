@@ -110,7 +110,6 @@ void naturalMergeSort(const string& inputFile, const string& outputFile, int k =
 }
 
 int main() {
-    setlocale(LC_ALL, "ru");
     srand(unsigned(time(nullptr)));
 
     int n;
