@@ -44,7 +44,7 @@ void distrub(const string& input, const string* tapes, int k)
     for (int i = 0; i < k; ++i) {
         outs[i].open(tapes[i]);
         if (!outs[i].is_open()) {
-            cout << "Ошибка";
+            cout << "Error";
             for (int j = 0; j < i; ++j) outs[j].close();
             delete[] outs;
             delete[] fib;
