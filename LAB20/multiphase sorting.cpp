@@ -127,7 +127,6 @@ void multi(const string& inputFile, int k = 3)
 
 int main()
 {
-    setlocale(LC_ALL, "ru");
     srand(unsigned(time(nullptr)));
     int n;
     cout << "How many elements: ";
